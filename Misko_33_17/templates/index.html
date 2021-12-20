@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="Ariandel Winter Resort" content="The best winter resort for you and your kids" />
+  <meta charset="utf-8">
+  <title>Painted world of Ariandel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="YehorMisko">
+  
+  <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+ <header>
+   <a href="#">
+   <div class="nav-item">
+   <img src="https://cdn.discordapp.com/attachments/496085513183428612/922516121796608091/unknown.png" href="#" id="hide">
+   <ul id="myDIV">
+     <li><a href="resort.html">Resort</a></li>
+     <li><a href="hotels.html">Hotels</a></li>
+     <li><a href="activities.html">Activities</a></li>
+     <li><a href="news.html">News</a></li>
+     <li><a href="register.html">Register</a></li>
+     </ul>
+   </div>
+     <div class="button">
+     <input type="image" src="https://cdn.discordapp.com/attachments/496085513183428612/922516121796608091/unknown.png" onclick="myFunction()"></input>
+     </div>
+   <a>
+   <div class="nav-item hide">
+    <a href="resort.html"> Resort</a>
+   </div>
+   <div class="nav-item hide">
+   <a href="hotels.html">  Hotels</a>
+   </div>
+   <div class="nav-item hide">
+    <a href="activities.html"> Activities</a>
+   </div>
+   <div class="nav-item hide">
+     <a href="news.html">News</a>
+   </div>
+   
+   <div class="nav-item hide">
+    <a href="register.html"> Register</a>
+   </div>
+  
+   </header>
+  <main>
+    <div class="welcome">
+    <div class="transperency">
+      Welcome to the painted world of Ariandel
+      </div>
+      </div>
+    <div class="attractions">
+      <h2>The best winter resort for you and your kids</h2>
+      <h2>We have:</h2>
+
+      <img src="https://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/mapsnow_hill_dks3-dlc.jpg">
+      <h2>Beautiful landscapes</h2>
+      <img src="https://assets.vg247.com/current//2016/10/dark_souls_ashes_of_ariandel_walkthrough_guide.jpg">
+      <h2>Friendly settlers</h2>
+      <img src="https://i.imgur.com/gYUpXMI.jpg">
+      <h2>Famous landmarks</h2>
+      <img src="{% static 'img/fun.gif' %}">
+       <h2>And many, many fun activities</h2>
+      </div>
+     
+    </main>
+  <footer>
+   
+    <div class="footer-item">
+    <a href="#"><img src="https://cdn.discordapp.com/attachments/496085513183428612/922516121796608091/unknown.png"> </a>
+      </div>
+    
+      <div class="footer-item">Painted world of Ariendel <br> All rights reserved.
+        </div>
+     <div class="footer-item">
+        Please do not contast us:
+        <br>
+        +380 099 420 20 47
+      </div>
+       <div class="footer-item">
+     
+       <a href="register.html"> Register</a>
+         </div>
+        
+    </footer>
+  <h1>Виконав студент групи 33Бд-СОінф фізико-математичного факультету Місько Єгор Валерійович, варіант 4</h1>
+<script>
+  function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
